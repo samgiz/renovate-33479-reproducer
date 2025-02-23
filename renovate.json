@@ -4,7 +4,7 @@
     "dummy": {
       "defaultRegistryUrlTemplate": "https://jsonplaceholder.typicode.com/todos/1",
       "transformTemplates": [
-        "{\"releases\":[{\"digest\": \"883deadc7186bb1ad00f98cd46d16a52419b7368\", \"version\": \"1.0.0\"}]}"
+        "{\"releases\":[{\"digest\": \"883deadc7186bb1ad00f98cd46d16a52419b7368\", \"version\": \"main\"}]}"
       ]
     }
   },
