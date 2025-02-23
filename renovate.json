@@ -1,0 +1,20 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "customDatasources": {
+    "dummy": {
+      "defaultRegistryUrlTemplate": "https://jsonplaceholder.typicode.com/todos/1",
+      "transformTemplates": [
+        "{\"releases\":[{\"digest\": \"883deadc7186bb1ad00f98cd46d16a52419b7368\"}]}"
+      ]
+    }
+  },
+  "packageRules": [
+    {
+      "matchManagers": ["git-submodules"],
+      "overrideDatasource": "custom.dummy"
+    }
+  ],
+  "git-submodules": {
+    "enabled": true
+  }
+}
