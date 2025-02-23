@@ -1,0 +1,3 @@
+[submodule "renovate-34101-reproducer"]
+	path = renovate-34101-reproducer
+	url = https://github.com/samgiz/renovate-34101-reproducer
