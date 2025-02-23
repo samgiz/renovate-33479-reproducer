@@ -31,8 +31,7 @@ Running `renovate@39.177.1` on this repo produces the following error message:
 
 Reverting [this commit](https://github.com/samgiz/renovate-33479-reproducer/commit/61198ecc543775276ea7ef3c2340d2082d9068b5) is a workaround for the issue (note that the `1.0.0` branch doesn't need to exist and isn't used in the end, it just needs to follow a semver format):
 
-```
-DEBUG: branches info extended (repository=samgiz/renovate-33479-reproducer)
+```json
        "branchesInformation": [
          {
            "branchName": "renovate/renovate-34101-reproducer-digest",
